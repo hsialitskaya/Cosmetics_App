@@ -1,1 +1,2 @@
-# Cosmetics_App
+# 💄 💅🏼 Cosmetic Recommendation Platform 💅🏼 💄 
+The Cosmetic Recommendation App is a full-stack web application built using JavaScript for both the frontend and backend. The app recommends cosmetics based on the user's skin type, allowing users to input their skin concerns and preferences. It includes features like adding cosmetics to favorites and suggesting websites tailored to the user's skin type. The platform integrates MQTT for real-time communication, a broker for handling messages, WebSocket (WS) for live updates, and TLS protocol for secure connections. The application aims to create a personalized, interactive, and secure experience for users seeking the right skincare products.
