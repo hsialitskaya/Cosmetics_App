@@ -28,7 +28,7 @@ Cosmetic Recommendation Platform is built using the following technologies:
 
 To get started with the Cosmetic Recommendation Platform, follow these steps:
 
-1️⃣ Clone the Repository  
+1️⃣ Clone the Repository   
 
 Download the repository to your local machine by running the following command in your terminal:  
 
@@ -36,13 +36,13 @@ Download the repository to your local machine by running the following command i
 git clone https://github.com/hsialitskaya/Cosmetics_App.git Cosmetics_App
 ```
 
-2️⃣ Install Dependencies
+2️⃣ Install Dependencies  
 Ensure you have Node.js installed on your system. Then, navigate to the project directory and install the required dependencies:
 ```bash
 cd Cosmetics_App
 npm install
 ```
-3️⃣ Generate TLS Certificate
+3️⃣ Generate TLS Certificate   
 Since the application uses a secure TLS connection, you need to generate a TLS certificate on your machine. Follow these steps:
 
 Generate the certificate by running the following command in your terminal:
@@ -56,9 +56,9 @@ tls/klucz.key (the private key),
 tls/klucz_haslo.key (the password-protected private key, which can be generated with a password if needed).
 Make sure that all these files are located in the tls/ folder in your project directory.
 
-4️⃣ Add the Certificate to Trusted 
+4️⃣ Add the Certificate to Trusted   
 
-5️⃣ Configure MQTT Broker (Mosquitto)
+5️⃣ Configure MQTT Broker (Mosquitto)   
 If you haven't already, install Mosquitto and start the broker with WebSockets and TLS enabled.
 
 Install Mosquitto (Linux/macOS):
@@ -72,7 +72,7 @@ Start the Broker
 mosquitto
 ```
 
-6️⃣ Run the Serwer
+6️⃣ Run the Serwer    
 Start the backend server by running the following command in your terminal:
 ```bash
 cd backend
