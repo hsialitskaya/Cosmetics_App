@@ -37,12 +37,14 @@ git clone https://github.com/hsialitskaya/Cosmetics_App.git Cosmetics_App
 ```
 
 2️⃣ Install Dependencies  
+
 Ensure you have Node.js installed on your system. Then, navigate to the project directory and install the required dependencies:
 ```bash
 cd Cosmetics_App
 npm install
 ```
 3️⃣ Generate TLS Certificate   
+
 Since the application uses a secure TLS connection, you need to generate a TLS certificate on your machine. Follow these steps:
 
 Generate the certificate by running the following command in your terminal:
@@ -59,6 +61,7 @@ Make sure that all these files are located in the tls/ folder in your project di
 4️⃣ Add the Certificate to Trusted   
 
 5️⃣ Configure MQTT Broker (Mosquitto)   
+
 If you haven't already, install Mosquitto and start the broker with WebSockets and TLS enabled.
 
 Install Mosquitto (Linux/macOS):
@@ -73,6 +76,7 @@ mosquitto
 ```
 
 6️⃣ Run the Serwer    
+
 Start the backend server by running the following command in your terminal:
 ```bash
 cd backend
