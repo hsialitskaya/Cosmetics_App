@@ -60,9 +60,10 @@ mosquitto
 4️⃣ Run the Serwer
 Start the backend server by running the following command in your terminal:
 ```bash
-node backend/app.js
+cd backend
+node app.js
 ```
-This will launch the app locally, and you can view it in your browser at **http://localhost:5001**.
+This will launch the app locally, and you can view it in your browser at **https://localhost:5001**.
 
  ## License
 Pokémons Explorer is licensed under the MIT License. See [LICENSE](https://github.com/hsialitskaya/Cosmetics_App/blob/main/LICENSE) for more information.    
