@@ -42,8 +42,23 @@ Ensure you have Node.js installed on your system. Then, navigate to the project 
 cd Cosmetics_App
 npm install
 ```
+3️⃣ Generate TLS Certificate
+Since the application uses a secure TLS connection, you need to generate a TLS certificate on your machine. Follow these steps:
 
-3️⃣ Configure MQTT Broker (Mosquitto)
+Generate the certificate by running the following command in your terminal:
+```bash
+openssl req -x509 -newkey rsa:4096 -keyout tls/klucz.key -out tls/certyfikat.crt -days 365
+```
+This will create the following files:
+
+tls/certyfikat.crt (the certificate),
+tls/klucz.key (the private key),
+tls/klucz_haslo.key (the password-protected private key, which can be generated with a password if needed).
+Make sure that all these files are located in the tls/ folder in your project directory.
+
+4️⃣ Add the Certificate to Trusted 
+
+5️⃣ Configure MQTT Broker (Mosquitto)
 If you haven't already, install Mosquitto and start the broker with WebSockets and TLS enabled.
 
 Install Mosquitto (Linux/macOS):
@@ -57,7 +72,7 @@ Start the Broker
 mosquitto
 ```
 
-4️⃣ Run the Serwer
+6️⃣ Run the Serwer
 Start the backend server by running the following command in your terminal:
 ```bash
 cd backend
@@ -65,7 +80,8 @@ node app.js
 ```
 This will launch the app locally, and you can view it in your browser at **https://localhost:5001**.
 
- ## License
+
+## License
 Pokémons Explorer is licensed under the MIT License. See [LICENSE](https://github.com/hsialitskaya/Cosmetics_App/blob/main/LICENSE) for more information.    
 
 Happy coding and enjoy creating the perfect skincare experience! 🎉
