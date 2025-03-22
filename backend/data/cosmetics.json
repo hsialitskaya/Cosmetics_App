@@ -1,0 +1,956 @@
+[
+  {
+    "id": 1,
+    "name": "Clinique Moisture Surge 72-Hour Auto-Replenishing Hydrator",
+    "type": "Krem nawilżający",
+    "skinType": [
+      "sucha",
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "odwodnienie"
+    ],
+    "upVotes": 25,
+    "downVotes": 18
+  },
+  {
+    "id": 2,
+    "name": "Neutrogena Hydro Boost Water Gel",
+    "type": "Żel nawilżający",
+    "skinType": [
+      "sucha",
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa"
+    ],
+    "skinIssues": [
+      "odwodnienie"
+    ],
+    "downVotes": 3,
+    "upVotes": 3
+  },
+  {
+    "id": 3,
+    "name": "La Roche-Posay Toleriane Ultra Fluid",
+    "type": "Krem nawilżający",
+    "skinType": [
+      "sucha",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "odwodnienie"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Vichy Aqualia Thermal Rich Cream",
+    "type": "Krem nawilżający",
+    "skinType": [
+      "sucha",
+      "mieszana",
+      "normalna",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "odwodnienie"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Avene Hydrance Aqua-Gel",
+    "type": "Żel nawilżający",
+    "skinType": [
+      "sucha",
+      "wrażliwa",
+      "mieszana",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "odwodnienie"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "La Roche-Posay Effaclar Duo (+)",
+    "type": "Krem na noc",
+    "skinType": [
+      "sucha",
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "trądzik"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "The Ordinary Niacinamide 10% + Zinc 1%",
+    "type": "Serum",
+    "skinType": [
+      "sucha",
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa"
+    ],
+    "skinIssues": [
+      "trądzik"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "CeraVe Foaming Facial Cleanser",
+    "type": "Żel oczyszczający",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa"
+    ],
+    "skinIssues": [
+      "trądzik"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Neutrogena Oil-Free Acne Wash Pink Grapefruit",
+    "type": "Żel oczyszczający",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa"
+    ],
+    "skinIssues": [
+      "trądzik"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Avene Cleanance K",
+    "type": "Krem na noc",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa"
+    ],
+    "skinIssues": [
+      "trądzik"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "The Ordinary AHA 30% + BHA 2% Peeling Solution",
+    "type": "Peeling",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "poszerzone pory"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "La Roche-Posay Effaclar Pore-Refining Serum",
+    "type": "Serum",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa"
+    ],
+    "skinIssues": [
+      "poszerzone pory"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Vichy Normaderm Phytosolution",
+    "type": "Serum",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna"
+    ],
+    "skinIssues": [
+      "poszerzone pory"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Paula's Choice 2% BHA Liquid Exfoliant",
+    "type": "Peeling",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa"
+    ],
+    "skinIssues": [
+      "poszerzone pory"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Clinique Pore Refining Solutions Charcoal Mask",
+    "type": "Maseczka",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa"
+    ],
+    "skinIssues": [
+      "poszerzone pory"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Neutrogena Hydro Boost Water Gel",
+    "type": "Żel nawilżający",
+    "skinType": [
+      "sucha",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "suche plamy"
+    ],
+    "upVotes": 3
+  },
+  {
+    "id": 17,
+    "name": "CeraVe Healing Ointment",
+    "type": "Balsam nawilżający",
+    "skinType": [
+      "sucha",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "suche plamy"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Eucerin Advanced Repair Cream",
+    "type": "Krem nawilżający",
+    "skinType": [
+      "sucha",
+      "mieszana",
+      "normalna",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "suche plamy"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "La Roche-Posay Toleriane Ultra Intense Moisturizing Cream",
+    "type": "Krem nawilżający",
+    "skinType": [
+      "sucha",
+      "wrażliwa",
+      "mieszana"
+    ],
+    "skinIssues": [
+      "suche plamy"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Vaseline Intensive Care Advanced Repair",
+    "type": "Balsam nawilżający",
+    "skinType": [
+      "sucha",
+      "wrażliwa",
+      "mieszana"
+    ],
+    "skinIssues": [
+      "suche plamy"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Avene Antirougeurs Fort Relief Concentrate",
+    "type": "Krem na podrażnienia",
+    "skinType": [
+      "wrażliwa",
+      "dojrzała",
+      "sucha"
+    ],
+    "skinIssues": [
+      "podrażnienia"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "La Roche-Posay Toleriane Ultra",
+    "type": "Krem na podrażnienia",
+    "skinType": [
+      "wrażliwa",
+      "sucha",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "podrażnienia"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Neutrogena Hydro Boost Water Gel",
+    "type": "Żel nawilżający",
+    "skinType": [
+      "wrażliwa",
+      "normalna",
+      "mieszana"
+    ],
+    "skinIssues": [
+      "podrażnienia"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Eucerin Aquaphor Healing Ointment",
+    "type": "Maść nawilżająca",
+    "skinType": [
+      "wrażliwa",
+      "sucha",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "podrażnienia"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Bioderma Sensibio AR",
+    "type": "Krem łagodzący",
+    "skinType": [
+      "wrażliwa",
+      "sucha",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "podrażnienia"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Olay Regenerist Micro-Sculpting Cream",
+    "type": "Krem przeciwzmarszczkowy",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "linie mimiczne"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Neutrogena Rapid Wrinkle Repair",
+    "type": "Krem przeciwzmarszczkowy",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "linie mimiczne"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "The Ordinary Retinol 0.5% in Squalane",
+    "type": "Serum przeciwzmarszczkowe",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "linie mimiczne"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "L'Oréal Paris Revitalift Bright Reveal Brightening Peel Pads",
+    "type": "Peeling przeciwzmarszczkowy",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "linie mimiczne"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "CeraVe Skin Renewing Retinol Serum",
+    "type": "Serum przeciwzmarszczkowe",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "linie mimiczne"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "RoC Retinol Correxion Deep Wrinkle Night Cream",
+    "type": "Krem na zmarszczki",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "zmarszczki"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Vichy LiftActiv Supreme",
+    "type": "Krem przeciwzmarszczkowy",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "zmarszczki"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "The Ordinary Buffet",
+    "type": "Serum przeciwzmarszczkowe",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "zmarszczki"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Eucerin Hyaluron-Filler Day Cream",
+    "type": "Krem na dzień",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "zmarszczki"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "La Roche-Posay Redermic R Anti-Aging Retinol Serum",
+    "type": "Serum przeciwzmarszczkowe",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "zmarszczki"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Dr. Dennis Gross C+ Collagen Brighten & Firm Vitamin C Serum",
+    "type": "Serum rozjaśniające",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "nierówny koloryt"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Neutrogena Rapid Tone Repair Dark Spot Corrector",
+    "type": "Serum na przebarwienia",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "nierówny koloryt"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "The Ordinary Alpha Arbutin 2% + HA",
+    "type": "Serum rozjaśniające",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "nierówny koloryt"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "CeraVe Resurfacing Retinol Serum",
+    "type": "Serum przeciw przebarwieniom",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "nierówny koloryt"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Murad Rapid Age Spot and Pigment Lightening Serum",
+    "type": "Serum na przebarwienia",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "nierówny koloryt"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "La Roche-Posay Anthelios Ultra-Light Sunscreen Fluid SPF 60",
+    "type": "Krem przeciwsłoneczny",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "bladość"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Neutrogena Hydro Boost Water Gel SPF 50",
+    "type": "Żel nawilżający z filtrem",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "bladość"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Eucerin Even Brighter SPF 30",
+    "type": "Krem przeciwsłoneczny",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała",
+      "sucha"
+    ],
+    "skinIssues": [
+      "bladość"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "The Ordinary Glycolic Acid 7% Toning Solution",
+    "type": "Tonik złuszczający",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "czarne punkty"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant",
+    "type": "Tonik złuszczający",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "czarne punkty"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "CeraVe Renewing SA Cleanser",
+    "type": "Żel oczyszczający",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "czarne punkty"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "La Roche-Posay Effaclar Deep Cleansing Foaming Cream",
+    "type": "Żel oczyszczający",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "czarne punkty"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Vichy Normaderm Phytosolution",
+    "type": "Serum oczyszczające",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "czarne punkty"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Eucerin DermoPurifyer Cleanser",
+    "type": "Żel oczyszczający",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "czarne punkty"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "The Ordinary Niacinamide 10% + Zinc 1%",
+    "type": "Serum regulujące",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "zatrzymane pory"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "The Ordinary Niacinamide 10% + Zinc 1%",
+    "type": "Serum regulujące",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "zatrzymane pory"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant",
+    "type": "Tonik złuszczający",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "zatrzymane pory"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "CeraVe Renewing SA Cleanser",
+    "type": "Żel oczyszczający",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "zatrzymane pory"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Neutrogena Rapid Clear Stubborn Acne Daily Leave-On Mask",
+    "type": "Maseczka na noc",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "zatrzymane pory"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "La Roche-Posay Effaclar Purifying Foaming Gel",
+    "type": "Żel oczyszczający",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "zatrzymane pory"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "The Ordinary Alpha Arbutin 2% + HA",
+    "type": "Serum rozjaśniające",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "przebarwienia"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Murad Rapid Age Spot and Pigment Lightening Serum",
+    "type": "Serum na przebarwienia",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "przebarwienia"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "La Roche-Posay Pigmentclar Serum",
+    "type": "Serum rozjaśniające",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "przebarwienia"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "The Ordinary Vitamin C Suspension 23% + HA Spheres 2%",
+    "type": "Serum rozjaśniające",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "przebarwienia"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Neutrogena Rapid Tone Repair Dark Spot Corrector",
+    "type": "Serum na przebarwienia",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "przebarwienia"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "The Ordinary Retinol 0.5% in Squalane",
+    "type": "Serum przeciwzmarszczkowe",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "utrata jędrności"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Olay Regenerist Micro-Sculpting Cream",
+    "type": "Krem przeciwzmarszczkowy",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "utrata jędrności"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "CeraVe Skin Renewing Retinol Serum",
+    "type": "Serum przeciwzmarszczkowe",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "utrata jędrności"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Neutrogena Hydro Boost Water Gel",
+    "type": "Żel nawilżający",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "utrata jędrności"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "L'Oréal Paris Revitalift Bright Reveal Brightening Peel Pads",
+    "type": "Peeling nawilżający",
+    "skinType": [
+      "tłusta",
+      "mieszana",
+      "normalna",
+      "wrażliwa",
+      "dojrzała"
+    ],
+    "skinIssues": [
+      "utrata jędrności"
+    ]
+  }
+]

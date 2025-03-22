@@ -1,0 +1,78 @@
+{
+  "sucha": {
+    "diet_advice": "If you have dry skin, it's important to consume foods that hydrate from within. Focus on healthy fats that support the skin's natural protective barrier. Include omega-3 fatty acids from sources like fatty fish (salmon, mackerel), nuts, flaxseeds, and avocados. Additionally, drink plenty of water to maintain proper skin hydration.",
+    "link": "https://pollenaewa.com.pl/blog/sucha/cera-sucha-charakterystyka-przyczyny-i-pielegnacja/#:~:text=Skóra%20osób%20mających%20suchą%20cerę,jasnożółtego%20lub%20jasnoróżowego%20koloru%20skóry."
+  },
+  "tłusta": {
+    "diet_advice": "For oily skin, avoid foods high in sugar and trans fats as they can worsen skin issues. Choose low-glycemic foods like whole grains, vegetables, nuts, and seeds. Incorporate vitamin A-rich foods (carrots, sweet potatoes) to help regulate sebum production.",
+    "link": "https://veolibotanica.pl/pl/blog/cera-tlusta-charakterystyka-i-pielegnacja-1685010981.html"
+  },
+  "mieszana": {
+    "diet_advice": "A balanced diet is key for combination skin. Focus on foods rich in vitamins and minerals like vitamin C (citrus fruits, bell peppers), vitamin E (nuts, seeds), and zinc (meat, pumpkin seeds). Maintain a balance between hydration and oil control.",
+    "link": "https://www.phlov.com/blog/cera-mieszana-jak-powinna-wygladac-pielegnacja-n61#:~:text=Według%20ogólnie%20przyjętej%20reguły%2C%20cera,obszary%20cery%20tłustej%20obok%20siebie."
+  },
+  "normalna": {
+    "diet_advice": "Even normal skin benefits from antioxidants. Include berries, tomatoes, and green tea to protect against oxidative stress. Maintain healthy fats (olive oil, nuts) to support skin elasticity.",
+    "link": "https://www.drduda.pl/cera-normalna-pielegnacja-i-charakterystyka/#:~:text=Cera%20normalna%20pozbawiona%20jest%20zmian,podrażnienia%20i%20działanie%20czynników%20zewnętrznych."
+  },
+  "wrażliwa": {
+    "diet_advice": "For sensitive skin, avoid inflammatory triggers like processed foods, spicy spices, and alcohol. Focus on anti-inflammatory foods rich in vitamin C (citrus, kiwi), vitamin E (almonds, nuts), and omega-3s (salmon, walnuts) to soothe irritation.",
+    "link": "https://cosibella.pl/blog/cera-wrazliwa-jak-dbac-o-delikatna-skore-twarzy/"
+  },
+  "dojrzała": {
+    "diet_advice": "Mature skin benefits from collagen-boosting foods. Focus on vitamin C (citrus fruits, tomatoes), green vegetables (broccoli, kale), and omega-3-rich fish to maintain elasticity and reduce wrinkles.",
+    "link": "https://qmsmedicosmetics.pl/cera-dojrzala-charakterystyka-i-pielegnacja-cery-dojrzalej/?srsltid=AfmBOor8GXrWIkQBQXCRllQOj8pYXhYY7XTVI0gyYEIvJatH6F4d9xe1"
+  },
+  "odwodnienie": {
+    "diet_advice": "For dehydrated skin, prioritize water-rich foods: cucumbers, watermelon, tomatoes, and citrus fruits. Stay hydrated with water and avoid dehydrating carbonated drinks.",
+    "link": "https://basiclab.shop/pl/blog/odwodniona-skora-twarzy-przyczyny-objawy-i-pielegnacja-1701774664?srsltid=AfmBOopdf91SdCWch7FQMhz54tBKnlf8ZQFajvv-pEAgsSn5BCRlrZp5"
+  },
+  "trądzik": {
+    "diet_advice": "Combat acne with vitamin A (carrots, spinach), zinc (nuts, seeds), and antioxidants. Avoid high-sugar foods that can exacerbate breakouts.",
+    "link": "https://www.mixa.pl/porady/jakie-sa-rodzaje-tradziku"
+  },
+  "poszerzone pory": {
+    "diet_advice": "Minimize enlarged pores with B vitamins (spinach, bananas) and vitamin C (citrus, bell peppers) to improve skin elasticity and sebum control.",
+    "link": "https://www.eucerin.pl/problemy-skory/tradzik/rozszerzone-pory?srsltid=AfmBOoo6njn4jsQ-FEqIgmmTOptB0FAxZpb-1Pt0sKg1LmX30y2tBoGh"
+  },
+  "suche plamy": {
+    "diet_advice": "Address dry patches with hydrating foods: avocados, nuts, olive oil, and omega-3-rich fish. Include vitamin E sources (almonds, seeds) for skin repair.",
+    "link": "https://wylecz.to/choroby-skory/suche-plamy-na-skorze-co-oznaczaja-takie-zmiany-skorne/"
+  },
+  "podrażnienia": {
+    "diet_advice": "Soothe irritation with anti-inflammatory foods: turmeric, ginger, berries, and nuts to support skin recovery.",
+    "link": "https://www.vichy.pl/blog/jak-zwalczyc-podraznienia-na-twarzy/vmag60653.aspx"
+  },
+  "linie mimiczne": {
+    "diet_advice": "Reduce fine lines with collagen-supporting foods: citrus fruits, strawberries, tomatoes, and omega-3-rich fish.",
+    "link": "https://scmestetic.pl/blog/odmladzanie-skory/zmarszczki-mimiczne-dlaczego-powstaja-jakie-sa-ich-rodzaje-i-jaki-zabieg-wybrac/"
+  },
+  "zmarszczki": {
+    "diet_advice": "Slow wrinkles with antioxidant-rich foods: berries, citrus fruits, avocados, and fatty fish to boost collagen production.",
+    "link": "https://www.phlov.com/blog/zmarszczki-mimiczne-kiedy-powstaja-i-jak-skutecznie-zmniejszyc-ich-widocznosc-n228"
+  },
+  "nierowny koloryt": {
+    "diet_advice": "Even skin tone with vitamin C-rich foods: citrus fruits, kiwi, and bell peppers to brighten dark spots and improve complexion.",
+    "link": "https://dermalogica.pl/czytaj/19-co-powoduje-nierownomierny-kolryt-skory"
+  },
+  "bladość": {
+    "diet_advice": "Combat paleness with iron-rich foods (spinach, red meat), vitamin C for absorption, and folate (broccoli, avocado) to improve skin radiance.",
+    "link": "https://www.wapteka.pl/blog/artykul/blada-cera-niedobory-i-choroby-wypisane-na-twarzy-jak-poprawic-koloryt-skory"
+  },
+  "czarne punkty": {
+    "diet_advice": "Reduce blackheads with vitamin A (carrots, sweet potatoes) and zinc (nuts, pumpkin seeds) to cleanse pores and improve skin texture.",
+    "link": "https://klinikaambroziak.pl/klinikaodadoz/pryszcze-czarne"
+  },
+  "zatrzymane pory": {
+    "diet_advice": "Clear clogged pores with vitamin A (carrots, peppers) and vitamin C (citrus fruits) to regulate sebum and improve skin elasticity.",
+    "link": "https://klinikaambroziak.pl/klinikaodadoz/rozszerzone-pory"
+  },
+  "przebarwienia": {
+    "diet_advice": "Fade hyperpigmentation with vitamin C-rich foods: citrus, kiwi, berries, and green vegetables to lighten spots and reduce inflammation.",
+    "link": "https://cosibella.pl/blog/przebarwienia-na-twarzy-przyczyny-powstawania-przebarwien-i-jak-je-usunac/"
+  },
+  "utrata jędrności": {
+    "diet_advice": "Improve skin firmness with collagen-supporting foods: citrus fruits, fatty fish (salmon), avocados, and nuts for elasticity.",
+    "link": "https://bienkowscyclinic.pl/cele-leczenia/wiotkosc-skory-utrata-jedrnosci/"
+  }
+}

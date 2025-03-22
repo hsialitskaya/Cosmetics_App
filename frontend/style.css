@@ -1,0 +1,1112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-size: 1.2em;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+input {
+  padding: 15px;
+  width: 500px;
+  font-size: 15px;
+}
+
+/* choiceSection  */
+
+#choiceSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#choiceSection > div {
+  text-align: center;
+}
+
+#choiceSection > div > div {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+}
+
+#choiceSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/first.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+#choiceSection h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+  animation: slideIn 1.5s ease-out forwards;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(20px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#choiceSection button {
+  background-color: beige;
+  color: black;
+  &:hover {
+    background-color: rgb(207, 4, 72);
+  }
+}
+
+/* choiceSection, registerSection, registerSection  */
+
+#loginSection,
+#registerSection,
+#loginAdminSection {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+#loginSection::before,
+#registerSection::before,
+#loginAdminSection::before {
+  align-items: center;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/second.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+#loginSection > div,
+#registerSection > div,
+#loginAdminSection > div {
+  display: flex;
+  flex-direction: column;
+}
+
+#loginSection > div > *:not(:last-child),
+#registerSection > div > *:not(:last-child),
+#loginAdminSection > div > *:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+#loginSection > div > div,
+#registerSection > div > div,
+#loginAdminSection > div > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+#loginSection button,
+#registerSection button,
+#loginAdminSection button {
+  background-color: beige;
+  color: black;
+  &:hover {
+    background-color: rgb(25, 58, 0);
+    color: beige;
+  }
+}
+
+/* mainSection, adminSection */
+#mainSection::before,
+#adminSection::before {
+  align-items: center;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/third.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+#mainSection {
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 50px;
+}
+
+#mainSection h2 {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+#adminSection {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+#adminSection h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  left: 100px;
+}
+
+#mainSection .buttons {
+  display: flex;
+  flex-direction: column;
+  margin-right: 170px;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+#adminSection .buttons {
+  display: flex;
+  flex-direction: column;
+  margin-right: 170px;
+  gap: 10px;
+  margin-top: 50px;
+  position: relative;
+  left: 180px;
+}
+
+#mainSection button,
+#adminSection button {
+  margin-bottom: 20px;
+  background-color: rgb(245, 245, 236);
+  color: black;
+  &:hover {
+    background-color: rgb(207, 4, 72);
+  }
+}
+
+/* userData, skinData, skinInfoSection */
+#userData::before,
+#skinData::before,
+#skinInfoSection::before {
+  align-items: center;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/second.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+#userData,
+#skinData,
+#skinInfoSection {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#userForm {
+  margin-top: 100px;
+}
+
+#userForm .form-group {
+  margin-bottom: 20px;
+}
+
+#userData button,
+#skinData button,
+#skinInfoSection button {
+  background-color: beige;
+  width: 540px;
+  color: black;
+  &:hover {
+    background-color: rgb(25, 58, 0);
+    color: beige;
+  }
+}
+
+#skinForm,
+#skinInfoForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#skinForm label,
+#skinInfoForm label {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.selectType {
+  display: flex;
+  flex-direction: row;
+}
+
+.selectType select {
+  position: relative;
+  top: 2px;
+  font-size: 20px;
+  width: 500px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  accent-color: rgb(25, 58, 0);
+}
+
+#skinForm input[type="checkbox"],
+#skinInfoForm input[type="checkbox"] {
+  accent-color: rgb(25, 58, 0);
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+
+#backToMainFromUpdateUser {
+  margin-top: 100px;
+}
+
+#backToMainFromUpdateSkin {
+  margin-top: 70px;
+  position: relative;
+  right: 30px;
+}
+
+/* cosmeticsMenu, favoriteMenu, questionnaireSection, infoSection */
+#cosmeticsMenu,
+#favoriteMenu,
+#questionnaireSection,
+#infoSection,
+#cosmeticsSection,
+#addCosmeticSection,
+#usersSection,
+#cookiesSection,
+#quizGame,
+#quizEnd,
+#chat {
+  background-color: lightpink;
+  display: none;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#waitingRoom {
+  background-color: lightpink;
+  display: none;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#commentSection {
+  background-color: lightpink;
+  display: none;
+  min-height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#cosmeticsList,
+#favoriteList,
+#questionnaireForm,
+#playersList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-width: 600px;
+  margin: auto;
+}
+
+.cosmetic-item,
+#favoriteList div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  max-height: 155px;
+}
+
+.cosmetic-item {
+  padding: 30px;
+}
+
+.cosmetic-buttons,
+.cookie-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+#cosmeticsList button,
+#favoriteList button {
+  font-size: 10px;
+  margin-left: 10px;
+  max-height: 80px;
+}
+
+#cosmeticsList button:hover,
+#favoriteList button:hover,
+#submitQuestionnaire:hover {
+  background-color: lightpink;
+  cursor: pointer;
+}
+
+#cosmeticsList li:before,
+#favoriteList li:before,
+#infoSection li:before,
+#cosmeticsSection li:before,
+#usersSection li:before {
+  content: "🎀";
+  margin-right: 5px;
+  font-size: 17px;
+}
+
+/* Styl odliczania */
+#countdown {
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #e86b88;
+  margin-bottom: 20px;
+}
+
+/* Lista graczy */
+#playersList {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+/* Nagłówek listy graczy */
+#playersList::before {
+  content: "👑 Lista graczy 👑";
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  color: #b8325c;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styl dla każdego gracza */
+#playersList li {
+  font-size: 30px;
+  background-color: #ffccda;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Efekt hover na liście graczy */
+#playersList li:hover {
+  transform: scale(1.05);
+}
+
+/* Ikonka przed graczem */
+#playersList li::before {
+  content: "🎀 ";
+  font-size: 20px;
+  margin-right: 10px;
+  color: #b8325c;
+}
+
+#quizGame #answers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#quizResult {
+  border: 3px solid #e86b88;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  background-color: #ffebf1; /* Delikatny różowy */
+  color: #b8325c;
+  font-weight: bold;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 30px auto;
+  line-height: 1.5;
+  position: relative;
+}
+
+/* Dodajemy ozdobny pasek na górze */
+#quizResult::before {
+  content: "🎉 Gratulacje! 🎉";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #e86b88;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Animacja pojawiania się */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+#quizResult {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+#backToMainFromCosmetics,
+#backToMainFromFavorite,
+#backToMainFromQuestionnaire,
+#backToMainFromInfo,
+#backToCosmeticsFromComment,
+#backToMainFromChat,
+#backToAdminFromCosmetics,
+#cancelAddCosmeticForm,
+#backToAdminFromUsers,
+#backToMainFromQuizEnd,
+#backToChatsFromChat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#showAddCosmeticForm {
+  position: fixed;
+  bottom: 100px;
+  right: 21px;
+}
+
+#searchCosmetic,
+#clearSearch {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100px; /* Stała szerokość */
+  height: 60px; /* Stała wysokość */
+  max-width: 150px; /* Maksymalna szerokość */
+  min-width: 110px; /* Minimalna szerokość */
+  max-height: 60px; /* Maksymalna wysokość */
+  min-height: 60px; /* Minimalna wysokość */
+  font-size: 15px;
+  background-color: palevioletred;
+  color: white;
+  &:hover {
+    background-color: lightpink;
+    color: palevioletred;
+  }
+}
+
+#search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#search * {
+  margin-right: 10px;
+}
+
+#cosmeticSearch,
+#questionnaireSection textarea,
+#questionnaireSection select,
+#commentForm textarea,
+#commentForm select {
+  font-size: 1em;
+  padding: 10px;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#cosmeticSearch {
+  margin-bottom: 0px;
+}
+
+#cosmeticSearch:focus,
+#questionnaireSection textarea:focus,
+#addCosmeticForm input:focus {
+  border: 2px solid pink;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(255, 105, 180, 0.6);
+  outline: none;
+  transition: all 0.3s ease;
+  padding: 10px;
+  background-color: #fff8fb;
+}
+
+#infoSection p {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#infoLinks,
+#cosmeticsSection li,
+#usersSection li {
+  list-style-type: none;
+}
+
+#infoLinks a {
+  text-decoration: wavy;
+  font-size: 20px;
+  color: palevioletred;
+}
+
+#submitQuestionnaire,
+#infoSection #foodInfo,
+#commentForm button,
+.comment-buttons button {
+  width: 200px;
+  background-color: palevioletred;
+  color: white;
+  &:hover {
+    background-color: lightpink;
+    color: palevioletred;
+  }
+}
+
+.comment-buttons {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.comment-buttons button {
+  max-width: 100px;
+  text-align: center;
+}
+
+#cosmeticsSection p,
+#usersSection p {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#cosmeticsSection #cosmeticsListInAdmin li,
+#usersSection li {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+#cosmeticsSection #cosmeticsListInAdmin button,
+#usersSection #userListInAdmin button {
+  margin-top: 10px;
+  width: 100px;
+  background-color: palevioletred;
+  color: white;
+  &:hover {
+    background-color: lightpink;
+    color: palevioletred;
+  }
+}
+
+#commentForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#lastComments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 0;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px 35px 20px 20px;
+}
+
+#questionnaireSection #submitQuestionnaire {
+  font-size: 1.1em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#questionnaireSection label,
+#commentForm label {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 8px;
+  display: block; /* Aby wymusić nową linię */
+}
+
+#questionnaireSection fieldset {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 500px;
+}
+
+#questionnaireForm legend {
+  font-size: 1.2em;
+  color: #555;
+  font-weight: bold;
+}
+
+#questionnaireForm input[type="checkbox"],
+#addCosmeticForm input[type="checkbox"] {
+  margin: 0;
+  width: 20px; /* Zwiększ rozmiar checkboxa */
+  height: 20px;
+  position: relative;
+  appearance: none;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+#questionnaireForm input[type="checkbox"]:checked::after,
+#addCosmeticForm input[type="checkbox"]:checked::after {
+  content: "🎀"; /* Dodaje emoji, gdy checkbox jest zaznaczony */
+  position: absolute;
+  top: 50%; /* Wyrównanie w pionie */
+  left: 50%; /* Wyrównanie w poziomie */
+  transform: translate(-50%, -50%); /* Dokładne wyrównanie w centrum */
+  font-size: 16px; /* Rozmiar emoji */
+}
+
+.cosmetic-item .cosmetic-buttons {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.cosmetic-buttons .cosmetic-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px; /* Określenie szerokości karty */
+}
+
+.cosmetic-card .cosmetic-votes {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.like-cosmetic,
+.dislike-cosmetic {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.like-cosmetic {
+  background-color: pink;
+  color: white;
+}
+
+.like-cosmetic:hover {
+  box-shadow: 2px 1px 1px palevioletred;
+}
+
+.dislike-cosmetic {
+  background-color: palevioletred;
+  color: white;
+}
+
+.dislike-cosmetic:hover {
+  background-color: palevioletred !important;
+  box-shadow: 2px 1px 1px pink;
+}
+
+#addCosmeticForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#addCosmeticForm button,
+.cookie-buttons button,
+#answers button {
+  margin-top: 10px;
+  width: 200px;
+  background-color: palevioletred;
+  color: white;
+  &:hover {
+    background-color: lightpink;
+    color: palevioletred;
+  }
+}
+
+/* mainSection - buttons*/
+
+#editButtons,
+#cosmeticsButtons,
+#moreOptionsButtons {
+  display: none;
+  flex-direction: row;
+  gap: 10px;
+}
+
+#editButtons button,
+#cosmeticsButtons button,
+#moreOptionsButtons button {
+  max-width: 200px; /* Maksymalna szerokość */
+  min-width: 150px; /* Minimalna szerokość */
+  max-height: 1000px; /* Maksymalna wysokość */
+  min-height: 60px; /* Minimalna wysokość */
+}
+
+/* chatSection */
+
+#chatSection,
+#quizSelection {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+  height: 100vh;
+  gap: 10px;
+}
+
+#chatSection::before,
+#quizSelection::before {
+  align-items: center;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/fourth.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(4px);
+  z-index: -1;
+}
+
+#chatSection h2,
+#quizSelection {
+  margin-bottom: 0;
+}
+
+#topic,
+#quiz {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  background-color: rgba(255, 255, 255, 0.7); /* Przezroczyste tło */
+  color: #333;
+}
+
+#joinRoomButton,
+#joinQuizButton {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #f0c1d1;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#joinRoomButton:hover,
+#joinQuizButton:hover {
+  background-color: #e86b88;
+}
+
+#visited-discussions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto; /* Wyrównanie sekcji na środku */
+  box-sizing: border-box;
+}
+
+#visited-discussions-container h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#visited-discussions-container a {
+  text-decoration: none;
+  color: #e86b88;
+  font-size: 16px;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#visited-discussions-container a:hover {
+  background-color: #f0c1d1;
+  color: #333;
+}
+
+#visited-discussions-container p {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#backToMainFromChat,
+#backToMainFromQuiz {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+}
+
+#chat input {
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+}
+
+.chatButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chatButtons button {
+  background-color: rgb(250, 154, 170);
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.chatButtons button:hover {
+  box-shadow: 2px 1px 1px palevioletred;
+  background-color: palevioletred;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  background-color: #e86b88;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  text-align: center;
+  width: 500px;
+}
+
+.custom-file-upload:hover {
+  background-color: #b8325c;
+}
+
+.message {
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  max-width: 100%;
+  word-wrap: break-word; /* Zawijanie tekstu */
+  word-break: break-word; /* Dodatkowo zapewnia złamanie długich słów */
+}
+
+.message-sender {
+  background-color: rgb(255, 222, 227);
+  text-align: right;
+}
+
+.message-recipient {
+  background-color: rgb(250, 154, 170);
+  text-align: left;
+}
+
+#chat img {
+  height: 200px;
+  width: auto;
+}
+
+.image-sender {
+  border: 2px solid rgb(255, 222, 227);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 98%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.image-recipient {
+  border: 2px solid rgb(250, 154, 170);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 98%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.chat-box {
+  width: 100%;
+  min-width: 700px;
+  height: 300px;
+  border: 2px solid #e86b88;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #ffebf1;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  font-family: Arial, sans-serif;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: none; /* Domyślnie ukryte */
+}
+
+/* Pasek przewijania (dla lepszego wyglądu) */
+.chat-box::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  background-color: #e86b88;
+  border-radius: 10px;
+}
+
+.chat-box::-webkit-scrollbar-track {
+  background-color: #ffe0eb;
+}
+
+/* Nagłówek chatu */
+.chat-title {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #b8325c;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Animacja pojawiania się */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.chat-box {
+  animation: fadeIn 0.3s ease-in-out;
+}

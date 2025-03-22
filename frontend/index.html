@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikacja Kosmetyczna</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Sekcja wyboru -->
+    <section id="choiceSection">
+      <div>
+        <h1>Witaj w aplikacji kosmetycznej!</h1>
+        <p>Wybierz, co chcesz zrobić:</p>
+        <div>
+          <button id="chooseRegister">Zarejestruj się</button>
+          <button id="chooseLogin">Zaloguj się</button>
+          <button id="adminLogin">Zaloguj się jako administrator</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sekcja logowania -->
+    <section id="loginSection">
+      <div>
+        <h2>Logowanie</h2>
+        <input type="email" id="loginEmail" placeholder="Email" required />
+        <input
+          type="password"
+          id="loginPassword"
+          placeholder="Hasło"
+          required
+        />
+        <div>
+          <button id="loginBtn">Zaloguj się</button>
+          <button id="backToChoice1">Wróć</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sekcja rejestracji -->
+    <section id="registerSection">
+      <div>
+        <h2>Rejestracja</h2>
+        <input type="text" id="registerName" placeholder="Imię" required />
+        <input
+          type="text"
+          id="registerSurname"
+          placeholder="Nazwisko"
+          required
+        />
+        <input type="number" id="registerAge" placeholder="Wiek" required />
+        <input type="email" id="registerEmail" placeholder="Email" required />
+        <input
+          type="password"
+          id="registerPassword"
+          placeholder="Hasło"
+          required
+        />
+        <div>
+          <button id="registerBtn">Zarejestruj się</button>
+          <button id="backToChoice2">Wróć</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sekcja wprowadzania informacji o skórze -->
+    <section id="skinInfoSection">
+      <h2>Wprowadź informacje o swojej skórze</h2>
+
+      <div id="skinInfoForm">
+        <div class="selectType">
+          <label for="skinType">Typ skóry:</label>
+          <select id="skinType" required>
+            <option value="sucha">Sucha</option>
+            <option value="tłusta">Tłusta</option>
+            <option value="mieszana">Mieszana</option>
+            <option value="normalna">Normalna</option>
+            <option value="wrażliwa">Wrażliwa</option>
+            <option value="dojrzała">Dojrzała</option>
+          </select>
+        </div>
+        <label for="skinIssues">Problemy skórne:</label>
+        <div>
+          <input
+            type="checkbox"
+            id="odwodnienie"
+            name="skinIssues"
+            value="odwodnienie"
+          />
+          <label for="odwodnienie">Odwodnienie</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="trądzik"
+            name="skinIssues"
+            value="trądzik"
+          />
+          <label for="trądzik">Trądzik</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="poszerzonePory"
+            name="skinIssues"
+            value="poszerzone pory"
+          />
+          <label for="poszerzonePory">Poszerzone pory</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="suchePlamy"
+            name="skinIssues"
+            value="suche plamy"
+          />
+          <label for="suchePlamy">Suche plamy</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="podrażnienia"
+            name="skinIssues"
+            value="podrażnienia"
+          />
+          <label for="podrażnienia">Podrażnienia</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="linieMimiczne"
+            name="skinIssues"
+            value="linie mimiczne"
+          />
+          <label for="linieMimiczne">Linie mimiczne</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="zmarszczki"
+            name="skinIssues"
+            value="zmarszczki"
+          />
+          <label for="zmarszczki">Zmarszczki</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="nierownyKoloryt"
+            name="skinIssues"
+            value="nierowny koloryt"
+          />
+          <label for="nierownyKoloryt">Nierówny koloryt</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="bladosc"
+            name="skinIssues"
+            value="bladosc"
+          />
+          <label for="bladosc">Bladość</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="czarnePunkty"
+            name="skinIssues"
+            value="czarne punkty"
+          />
+          <label for="czarnePunkty">Czarne punkty</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="zatrzymanePory"
+            name="skinIssues"
+            value="zatrzymane pory"
+          />
+          <label for="zatrzymanePory">Zatrzymane pory</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="przebarwienia"
+            name="skinIssues"
+            value="przebarwienia"
+          />
+          <label for="przebarwienia">Przebarwienia</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="utrataJendrosci"
+            name="skinIssues"
+            value="utrata jendrosci"
+          />
+          <label for="utrataJendrosci">Utrata jędrności</label>
+        </div>
+        <button type="submit" id="submitSkinInfo">Zatwierdź</button>
+      </div>
+    </section>
+
+    <!-- Sekcja logowania admina-->
+    <section id="loginAdminSection">
+      <div>
+        <h2>Logowanie jako admin</h2>
+        <input type="email" id="loginAdminLogin" placeholder="Login" required />
+        <input
+          type="password"
+          id="loginAdminPassword"
+          placeholder="Hasło"
+          required
+        />
+        <div>
+          <button id="loginAdminBtn">Zaloguj się</button>
+          <button id="backToChoice3">Wróć</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sekcja cookies -->
+    <section id="cookiesSection" style="display: none">
+      <div class="cookie-container">
+        <p>
+          Nasza strona używa ciasteczek, aby zapewnić Ci jak najlepsze
+          doświadczenia. Ciasteczka pomagają w analizie ruchu na stronie oraz
+          umożliwiają personalizację treści.
+        </p>
+        <p>
+          Klikając "Zgadzam się", wyrażasz zgodę na używanie ciasteczek. Możesz
+          także dostosować ustawienia ciasteczek lub odmówić ich używania.
+        </p>
+        <div class="cookie-buttons">
+          <button id="acceptCookies">Zgadzam się</button>
+          <button id="rejectCookies">Nie zgadzam się</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sekcja główna -->
+    <section id="mainSection">
+      <h2>Witaj w swojej strefie kosmetycznej!</h2>
+      <div class="buttons">
+        <button id="editData">Zmień dane</button>
+        <div id="editButtons">
+          <button id="editPersonalData" >Zmień dane osobowe</button>
+          <button id="editSkinType">Zmień typ cery</button>
+        </div>
+        <button id="viewCosmetics">Kosmetyki</button>
+        <div id="cosmeticsButtons">
+          <button id="viewMatchingCosmetics">Zobacz pasujące kosmetyki</button>
+          <button id="viewFavoriteCosmetics">Zobacz ulubione kosmetyki</button> 
+        </div>
+        <button id="chatButton">Forum dyskusyjne</button>
+        <button id="moreButton">Zobacz więcej opcji kosmetycznych</button>
+        <div id="moreOptionsButtons">
+          <button id="infoButton">Przydatne informacje</button>
+          <button id="quizButton">Testy kosmetyczne</button>
+        </div>
+        <button id="feedbackButton">Oceń naszą aplikację</button>
+        <button id="userLogout">Wyloguj się</button>
+      </div>
+    </section>
+
+    <!-- Sekcja zmiany danych uzytkownika -->
+    <section id="userData">
+      <h2>Zmień swoje dane</h2>
+      <form id="userForm">
+        <div class="form-group">
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            placeholder="Wprowadź swoje imię"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            placeholder="Wprowadź swoje nazwisko"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="number"
+            id="age"
+            name="age"
+            placeholder="Wprowadź swój wiek"
+            min="0"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Wprowadź swój email"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Wprowadź swoje hasło"
+          />
+        </div>
+        <button type="submit">Zapisz zmiany</button>
+      </form>
+      <button id="backToMainFromUpdateUser">Wróć do głównej sekcji</button>
+    </section>
+
+    <!-- Sekcja zmiany danych o cerze -->
+    <section id="skinData">
+      <h2>Zmień swoje dane o cerze</h2>
+      <form id="skinForm">
+        <div class="selectType">
+          <label for="skinType">Typ skóry:</label>
+          <select id="skinTypeNew" required>
+            <option value="sucha">Sucha</option>
+            <option value="tłusta">Tłusta</option>
+            <option value="mieszana">Mieszana</option>
+            <option value="normalna">Normalna</option>
+            <option value="wrażliwa">Wrażliwa</option>
+            <option value="dojrzała">Dojrzała</option>
+          </select>
+        </div>
+        <label for="skinIssuesNew">Problemy skórne:</label>
+        <div>
+          <input
+            type="checkbox"
+            id="odwodnienie"
+            name="skinIssuesNew"
+            value="odwodnienie"
+          />
+          <label for="odwodnienie">Odwodnienie</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="trądzik"
+            name="skinIssuesNew"
+            value="trądzik"
+          />
+          <label for="trądzik">Trądzik</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="poszerzonePory"
+            name="skinIssuesNew"
+            value="poszerzone pory"
+          />
+          <label for="poszerzonePory">Poszerzone pory</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="suchePlamy"
+            name="skinIssuesNew"
+            value="suche plamy"
+          />
+          <label for="suchePlamy">Suche plamy</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="podrażnienia"
+            name="skinIssuesNew"
+            value="podrażnienia"
+          />
+          <label for="podrażnienia">Podrażnienia</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="linieMimiczne"
+            name="skinIssuesNew"
+            value="linie mimiczne"
+          />
+          <label for="linieMimiczne">Linie mimiczne</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="zmarszczki"
+            name="skinIssuesNew"
+            value="zmarszczki"
+          />
+          <label for="zmarszczki">Zmarszczki</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="nierownyKoloryt"
+            name="skinIssuesNew"
+            value="nierowny koloryt"
+          />
+          <label for="nierownyKoloryt">Nierówny koloryt</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="bladosc"
+            name="skinIssuesNew"
+            value="bladosc"
+          />
+          <label for="bladosc">Bladość</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="czarnePunkty"
+            name="skinIssuesNew"
+            value="czarne punkty"
+          />
+          <label for="czarnePunkty">Czarne punkty</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="zatrzymanePory"
+            name="skinIssuesNew"
+            value="zatrzymane pory"
+          />
+          <label for="zatrzymanePory">Zatrzymane pory</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="przebarwienia"
+            name="skinIssuesNew"
+            value="przebarwienia"
+          />
+          <label for="przebarwienia">Przebarwienia</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="utrataJendrosci"
+            name="skinIssuesNew"
+            value="utrata jendrosci"
+          />
+          <label for="utrataJendrosci">Utrata jędrności</label>
+        </div>
+        <button type="submit" id="submitSkinInfo">Zapisz zmiany</button>
+      </form>
+      <button id="backToMainFromUpdateSkin">Wróć do głównej sekcji</button>
+    </section>
+
+    <!-- Sekcja polecanych kosmetyków -->
+    <section id="cosmeticsMenu">
+      <h2>Pasujące kosmetyki</h2>
+
+      <!-- Formularz wyszukiwania kosmetyków -->
+      <div id="search">
+        <input
+          type="text"
+          id="cosmeticSearch"
+          placeholder="Wyszukaj kosmetyki..."
+        />
+
+        <button id="searchCosmetic">Szukaj</button>
+        <button id="clearSearch">Wyczyść wyszukiwanie</button>
+      </div>
+      <ul id="cosmeticsList">
+        <!-- Lista kosmetyków zostanie wygenerowana dynamicznie -->
+      </ul>
+      <button id="backToMainFromCosmetics">Wróć do głównej sekcji</button>
+    </section>
+
+    <!-- Sekcja komentarza -->
+    <section id="commentSection" style="display: none">
+      <div>
+        <h2>Dodaj swój komentarz</h2>
+        <form id="commentForm">
+          <div class="form-group">
+            <label for="comment">Twój komentarz:</label>
+            <textarea
+              id="comment"
+              name="comment"
+              rows="4"
+              placeholder="Podziel się swoją opinią..."
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="rating">Twoja ocena:</label>
+            <select id="rating" name="rating" required>
+              <option value="" disabled selected>Wybierz ocenę</option>
+              <option value="1">1 - Bardzo słabo</option>
+              <option value="2">2 - Słabo</option>
+              <option value="3">3 - Przeciętnie</option>
+              <option value="4">4 - Dobrze</option>
+              <option value="5">5 - Świetnie</option>
+            </select>
+          </div>
+          <button type="submit">Dodaj komentarz</button>
+        </form>
+      </div>
+      <div id="lastComments">
+        <h3>Ostatnie komentarze:</h3>
+        <ul id="commentsList">
+          <!-- Lista komentarzy będzie generowana dynamicznie -->
+        </ul>
+      </div>
+      <button id="backToCosmeticsFromComment">Wróć do kosmetyków</button>
+    </section>
+
+    <!-- Sekcja ulubionych kosmetyków -->
+    <section id="favoriteMenu">
+      <h2>Ulubione kosmetyki</h2>
+      <ul id="favoriteList">
+        <!-- Lista kosmetyków zostanie wygenerowana dynamicznie -->
+      </ul>
+      <button id="backToMainFromFavorite">Wróć do głównej sekcji</button>
+    </section>
+
+    <!-- Sekcja czatu -->
+    <section id="chatSection" style="display: none">
+      <h2>Wybierz temat kosmetyczny:<h2>
+      <select id="topic">
+        <option value="pielęgnacja_skóry">Pielęgnacja skóry</option>
+        <option value="makijaż">Makijaż</option>
+        <option value="pielęgnacja_włosów">Pielęgnacja włosów</option>
+        <option value="kosmetyki_organiczne">Kosmetyki organiczne</option>
+      </select>
+      <button id="joinRoomButton">Dołącz do pokoju</button>
+      <div id="visited-discussions-container"></div>
+      <button id="backToMainFromChat">Wróć do głównej sekcji</button>
+    </section>
+    <section id="chat" style="display: none">
+        <div id="chat-container"></div>
+        <div class="chatButtons">
+          <div style="display: flex; flex-direction: row;">
+            <input type="text" id="message" placeholder="Wpisz wiadomość..." />
+            <button id="sendMessage">Wyślij wiadomość</button>
+          </div>
+          <div style="display: flex; flex-direction: row;">
+              <label for="imageInput" class="custom-file-upload">📷 Wybierz zdjęcie</label>
+              <input type="file" id="imageInput" accept="image/*" hidden />
+              <button id="sendImage">Wyślij zdjęcie</button>
+          </div> 
+        </div>
+        <button id="backToChatsFromChat">Powrót</button>
+    </section>
+
+    <!-- Sekcja przydatnych informacji-->
+    <section id="infoSection" style="display: none">
+      <h2>Przydatne informacje o twojej cerze</h2>
+      <p>Przydatne linki:</p>
+      <ul id="infoLinks"></ul>
+      <p>🎀 Diety 🎀:</p>
+      <button id="foodInfo">Zaciągnij informację o dietach</button>
+      <button id="backToMainFromInfo">Wróć do głównej sekcji</button>
+    </section>
+
+    <!-- Sekcja feedback -->
+    <section id="questionnaireSection" style="display: none">
+      <h2>Jak możemy ulepszyć naszą aplikację?</h2>
+      <p id="temporaryInfoContainer"></p>
+      <form id="questionnaireForm">
+        <!-- Pytanie otwarte -->
+        <label for="improvementIdeas"
+          >Co chciałbyś/chciałabyś zmienić lub dodać w aplikacji?</label
+        >
+        <textarea
+          id="improvementIdeas"
+          name="improvementIdeas"
+          rows="4"
+          cols="50"
+          placeholder="Opisz swoje pomysły..."
+        ></textarea>
+
+        <!-- Pytanie zamknięte z oceną -->
+        <label for="rating">Jak oceniasz naszą aplikację w skali 1-5?</label>
+        <select id="rating" name="rating">
+          <option value="1">1 - Bardzo słabo</option>
+          <option value="2">2 - Słabo</option>
+          <option value="3">3 - Przeciętnie</option>
+          <option value="4">4 - Dobrze</option>
+          <option value="5">5 - Bardzo dobrze</option>
+        </select>
+
+        <!-- Pytanie wielokrotnego wyboru -->
+        <fieldset>
+          <legend>Jakie funkcje najbardziej Ci się podobają?</legend>
+          <label>
+            <input
+              type="checkbox"
+              name="likedFeatures"
+              value="Intuicyjny interfejs"
+            />
+            Intuicyjny interfejs
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="likedFeatures"
+              value="Szybkość działania"
+            />
+            Szybkość działania
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="likedFeatures"
+              value="Wyszukiwanie produktów"
+            />
+            Wyszukiwanie produktów
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="likedFeatures"
+              value="Rekomendacje kosmetyków"
+            />
+            Rekomendacje kosmetyków
+          </label>
+        </fieldset>
+
+        <!-- Pytanie o priorytety użytkownika -->
+        <label for="mostImportantFeature"
+          >Co jest dla Ciebie najważniejsze w aplikacji?</label
+        >
+        <select id="mostImportantFeature" name="mostImportantFeature">
+          <option value="Łatwość użytkowania">Łatwość użytkowania</option>
+          <option value="Szybkość działania">Szybkość działania</option>
+          <option value="Personalizacja">Personalizacja</option>
+          <option value="Dodatkowe funkcje">Dodatkowe funkcje</option>
+        </select>
+
+        <!-- Pytanie otwarte -->
+        <label for="problemsFaced"
+          >Czy napotkałeś/aś jakieś problemy podczas korzystania z
+          aplikacji?</label
+        >
+        <textarea
+          id="problemsFaced"
+          name="problemsFaced"
+          rows="4"
+          cols="50"
+          placeholder="Opisz napotkane problemy..."
+        ></textarea>
+      </form>
+      <button type="submit" id="submitQuestionnaire">Wyślij ankietę</button>
+      <button id="backToMainFromQuestionnaire">Wróć do głównej sekcji</button>
+    </section>
+
+    <!-- Sekcja administratora -->
+    <section id="adminSection" style="display: none">
+      <h2>Panel Administratora</h2>
+      <div class="buttons">
+        <button id="manageCosmetics">Zarządzaj kosmetykami</button>
+        <button id="manageUsers">Zarządzaj użytkownikami</button>
+        <button id="adminLogout">Wyloguj się</button>
+      </div>
+    </section>
+
+    <!-- Sekcja kosmetyków w admin-->
+    <section id="cosmeticsSection" style="display: none">
+      <h2>Zarządzanie Kosmetykami</h2>
+      <ul id="temporaryMessagesContainer"></ul>
+      <p>Lista kosmetyków:</p>
+      <ul id="cosmeticsListInAdmin"></ul>
+      <button id="showAddCosmeticForm">Dodaj nowy kosmetyk</button>
+      <button id="backToAdminFromCosmetics">Wróć do głównej sekcji</button>
+    </section>
+
+    <!-- Sekcja dodawania nowego kosmetyku-->
+    <section id="addCosmeticSection" style="display: none">
+      <form id="addCosmeticForm">
+        <h3>Dodaj nowy kosmetyk</h3>
+        <label for="cosmeticName">Nazwa kosmetyku:</label>
+        <input
+          type="text"
+          id="cosmeticName"
+          placeholder="Nazwa kosmetyku"
+          required
+        />
+
+        <label for="cosmeticType">Typ kosmetyku:</label>
+        <input
+          type="text"
+          id="cosmeticType"
+          placeholder="Typ kosmetyku"
+          required
+        />
+        <div>
+        <label>Typ skóry:</label>
+        <div>
+          <input type="checkbox" id="sucha" name="skinType" value="sucha" />
+          <label for="sucha">Sucha</label>
+        </div>
+        <div>
+          <input type="checkbox" id="tlusta" name="skinType" value="tłusta" />
+          <label for="tlusta">Tłusta</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="mieszana"
+            name="skinType"
+            value="mieszana"
+          />
+          <label for="mieszana">Mieszana</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="normalna"
+            name="skinType"
+            value="normalna"
+          />
+          <label for="normalna">Normalna</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="wrazliwa"
+            name="skinType"
+            value="wrażliwa"
+          />
+          <label for="wrazliwa">Wrażliwa</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="dojrzala"
+            name="skinType"
+            value="dojrzała"
+          />
+          <label for="dojrzala">Dojrzała</label>
+        </div>
+      </div> 
+      <div>
+        <label for="skinIssues">Problemy skórne:</label>
+        <div>
+          <input
+            type="checkbox"
+            id="odwodnienie"
+            name="skinIssues"
+            value="odwodnienie"
+          />
+          <label for="odwodnienie">Odwodnienie</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="trądzik"
+            name="skinIssues"
+            value="trądzik"
+          />
+          <label for="trądzik">Trądzik</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="poszerzonePory"
+            name="skinIssues"
+            value="poszerzone pory"
+          />
+          <label for="poszerzonePory">Poszerzone pory</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="suchePlamy"
+            name="skinIssues"
+            value="suche plamy"
+          />
+          <label for="suchePlamy">Suche plamy</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="podrażnienia"
+            name="skinIssues"
+            value="podrażnienia"
+          />
+          <label for="podrażnienia">Podrażnienia</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="linieMimiczne"
+            name="skinIssues"
+            value="linie mimiczne"
+          />
+          <label for="linieMimiczne">Linie mimiczne</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="zmarszczki"
+            name="skinIssues"
+            value="zmarszczki"
+          />
+          <label for="zmarszczki">Zmarszczki</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="nierownyKoloryt"
+            name="skinIssues"
+            value="nierówny koloryt"
+          />
+          <label for="nierownyKoloryt">Nierówny koloryt</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="bladosc"
+            name="skinIssues"
+            value="bladość"
+          />
+          <label for="bladosc">Bladość</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="czarnePunkty"
+            name="skinIssues"
+            value="czarne punkty"
+          />
+          <label for="czarnePunkty">Czarne punkty</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="zatrzymanePory"
+            name="skinIssues"
+            value="zatrzymane pory"
+          />
+          <label for="zatrzymanePory">Zatrzymane pory</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="przebarwienia"
+            name="skinIssues"
+            value="przebarwienia"
+          />
+          <label for="przebarwienia">Przebarwienia</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="utrataJendrosci"
+            name="skinIssues"
+            value="utrata jędrności"
+          />
+          <label for="utrataJendrosci">Utrata jędrności</label>
+        </div></div>
+        <button type="submit">Dodaj kosmetyk</button>
+      </form>
+      <button type="button" id="cancelAddCosmeticForm">Anuluj</button>
+    </section>
+
+    <!-- Sekcja użytkowników w admin-->
+    <section id="usersSection" style="display: none">
+      <h2>Zarządzanie Użytkownikami</h2>
+      <p>Lista użytkowników:</p>
+      <ul id="userListInAdmin"></ul>
+      <button id="backToAdminFromUsers">Wróć do głównej sekcji</button>
+    </section>
+
+  
+   <!-- Sekcja wyboru quizu -->
+<section id="quizSelection" style="display: none">
+  <h2>Wybierz quiz</h2>
+  <select id="quiz">
+    <!-- Opcje quizów będą dodane dynamicznie przez JavaScript -->
+  </select>
+  <button id="joinQuizButton">Dołącz do quizu</button>
+  <button id="backToMainFromQuiz">Wróć do głównej sekcji</button>
+</section>
+
+<!-- Sekcja poczekalni -->
+<section id="waitingRoom" style="display: none">
+  <h2>Poczekaj na innych graczy</h2>
+  <p id="countdown"></p>
+  <ul id="playersList"></ul>
+</section>
+
+<!-- Sekcja quizu -->
+<section id="quizGame" style="display: none">
+  <h2 id="question"></h2>
+  <div id="answers"></div>
+</section>
+
+<!-- Sekcja wyników -->
+<section id="quizEnd" style="display: none">
+  <h2>Twój wynik</h2>
+  <p id="quizResult"></p>
+  <button id="backToMainFromQuizEnd">Wróć do głównej sekcji</button>
+</section>
+
+    <script src="logowanie.js"></script>
+    <script src="skininfo.js"></script>
+    <script type="module" src="cosmetics.js"></script>
+    <script src="updateUser.js"></script>
+    <script src="updateSkin.js"></script>
+    <script src="favorites.js"></script>
+    <script type="module" src="forum.js"></script>
+    <script src="comments.js"></script>
+    <script type="module" src="admin.js"></script>
+    <script src="info.js"></script>
+    <script type="module" src="feedback.js"></script>
+    <script src="cookies.js"></script>
+    <script type="module" src="quiz.js"></script>
+  </body>
+
+  <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mqtt@4.2.0/dist/mqtt.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  </html>
