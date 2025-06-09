@@ -2,14 +2,14 @@
 The Cosmetic Recommendation App is a full-stack web application built using JavaScript for both the frontend and backend. The app recommends cosmetics based on the user's skin type, allowing users to input their skin concerns and preferences. It includes features like adding cosmetics to favorites and suggesting websites tailored to the user's skin type. The platform integrates MQTT for real-time communication, a broker for handling messages, WebSocket (WS) for live updates, and TLS protocol for secure connections. The application aims to create a personalized, interactive, and secure experience for users seeking the right skincare products.
 
 
-<img width="1436" alt="Снимок экрана 2025-03-22 в 19 37 55" src="https://github.com/user-attachments/assets/2e373b98-80ab-4bca-b1a4-36ccf1939e4f" />
-<img width="1437" alt="Снимок экрана 2025-03-22 в 19 32 16" src="https://github.com/user-attachments/assets/041a47a1-2f8e-4fe8-a031-6a620bafd0c2" />
-<img width="1435" alt="Снимок экрана 2025-03-22 в 19 28 38" src="https://github.com/user-attachments/assets/6d45f6dc-16ba-44ce-b793-ba1b2535247f" />
-<img width="1432" alt="Снимок экрана 2025-03-22 в 19 31 16" src="https://github.com/user-attachments/assets/643fdb26-00ad-4916-8e5f-83a30c9d17f7" />
-<img width="1417" alt="Снимок экрана 2025-03-22 в 19 31 08" src="https://github.com/user-attachments/assets/2068dbb7-82cb-4595-a2c9-a68acf2abb4a" />
-<img width="1428" alt="Снимок экрана 2025-03-22 в 19 30 36" src="https://github.com/user-attachments/assets/4308d219-e2f2-4d43-8e57-24c6c20e2369" />
-<img width="1412" alt="Снимок экрана 2025-03-22 в 19 31 48" src="https://github.com/user-attachments/assets/0f84952d-1d4f-471c-86ff-d05fdbe09ed9" />
-<img width="1435" alt="Снимок экрана 2025-03-22 в 19 31 59" src="https://github.com/user-attachments/assets/96dc8eee-0cf2-481c-bb75-a86a6a2d460c" />
+<img width="1436" src="https://github.com/user-attachments/assets/2e373b98-80ab-4bca-b1a4-36ccf1939e4f" />
+<img width="1437" src="https://github.com/user-attachments/assets/041a47a1-2f8e-4fe8-a031-6a620bafd0c2" />
+<img width="1435" src="https://github.com/user-attachments/assets/6d45f6dc-16ba-44ce-b793-ba1b2535247f" />
+<img width="1432" src="https://github.com/user-attachments/assets/643fdb26-00ad-4916-8e5f-83a30c9d17f7" />
+<img width="1417" src="https://github.com/user-attachments/assets/2068dbb7-82cb-4595-a2c9-a68acf2abb4a" />
+<img width="1428" src="https://github.com/user-attachments/assets/4308d219-e2f2-4d43-8e57-24c6c20e2369" />
+<img width="1412" src="https://github.com/user-attachments/assets/0f84952d-1d4f-471c-86ff-d05fdbe09ed9" />
+<img width="1435" src="https://github.com/user-attachments/assets/96dc8eee-0cf2-481c-bb75-a86a6a2d460c" />
 
 
 # 💻 Technologies Used
